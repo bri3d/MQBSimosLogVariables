@@ -1,5 +1,8 @@
 # MQBSimosLogVariables
-Collect 0x22 ReadLocalIdentifier variables and conversions for use in Torque and other logging software
+Collect 0x22 ReadLocalIdentifier variables and conversions for use in Torque and other logging software.
+
+Compatible with Simos18 cars like MQB / MK7 VW Golf R, GTI, 1.8, Audi S3/A3, etc.
+
 # To Use with Torque
 Copy CSV to /sdcard/.torque/extendedpids
 Visit Torque settings and open the Custom PIDs pane, then press "..." and "Settings from Group". Your CSV should appear in the list.
