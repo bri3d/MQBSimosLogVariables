@@ -1,0 +1,15 @@
+"Name", "ShortName", "ModeAndPID", "Equation", "Min Value", "Max Value", "Units", "Header", "startDiagnostic", "stopDiagnostic", "Scale"
+"Charge Pressure Actual","Charge","0x22202a","(A*256+B)*0.1",0,4000,"kPa","7E0","","",1
+"Charge Pressure Specified","puts","0x222029","(A*256+B)*0.1",0,50,"kPa","7E0","","",1
+"Fuel Rail Pressure MQB","frp","0x22f423","(A*256+B)*10",0,10000,"kPa","7E0","","",1
+"lambda actual","lmbda","0x2210c0","(A*256+B)*.000977",0,10,"lambda","7E0","","",1
+"lambda specified","lmbds","0x221456","(a*256+b)*0.000977",0,10,"","7E0","","",1
+"timing correction cyl 1","tcc1","0x22200a","(signed(A)*256+B)*0.01",-10,0,"deg","7E0","","",1
+"timing correction cyl 2","tcc2","0x22200b","(signed(A)*256+B)*0.01",-10,0,"deg","7E0","","",1
+"timing correction cyl 3","tcc3","0x22200c","(signed(A)*256+B)*0.01",-10,0,"","7E0","","",1
+"timing correction cyl 4","tcc4","0x22200d","(signed(A)*256+B)*0.01",-10,0,"","7e0","","",1
+"Timing Cyl 1","tc1","0x222004","(signed(A)*256+B)*0.01",-10,40,"","7E0","","",1
+"Torque Actual","Torque","0x22437c","((A*256)+B)*0.1",0,500,"Nm","7E0","","",1
+"Wastegate Position Actual","wgdsa","0x2239a2","(A*256+B)*0.01",0,100,"","7E0","","",1
+"Wastegate Position Specified","wgds","0x2239a3","(A*256+B)*0.01",9,100,"","7E0","","",1
+
